@@ -1,7 +1,6 @@
 import os, sys
 import argparse
 import cv2
-import gradio as gr
 import torch
 from basicsr.archs.srvgg_arch import SRVGGNetCompact
 from realesrgan.utils import RealESRGANer
